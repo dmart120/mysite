@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
     'selector': 'my-site',
     template: `
     <nav-bar [title]="title" [elements]="elements"></nav-bar>
+    <app-carousel></app-carousel>
 `
 })
 

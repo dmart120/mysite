@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var navbar_component_1 = require('./components/navbar/navbar.component');
 var navbar_element_component_1 = require('./components/navbar/navbar-element/navbar-element.component');
+var carousel_component_1 = require('./components/carousel/carousel.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,7 +23,8 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 navbar_component_1.NavBarComponent,
-                navbar_element_component_1.NavBarElementComponent
+                navbar_element_component_1.NavBarElementComponent,
+                carousel_component_1.CarouselComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent
