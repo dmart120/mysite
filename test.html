@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jasmine Test Runner</title>
+        <link rel="stylesheet" href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+    </head>
+    <body>
+        <script src="node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+        <script src="node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+        <script src="node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+        <script>
+
+
+            var __spec_files__ = [
+                    'app/app.component.spec'
+            ];
+
+
+//            System.config({
+//                packages: {
+//                    defaultExtension: 'js'
+//                }
+//            });
+//            System.import('/app/app.component.spec')
+//                    .then(window.onload)
+//                    .catch();
+        </script>
+        <script src="browser-test-shim.js"></script>
+        <!--<script src="app/app.component.spec.js">-->
+<!--//            describe('First test', function () {-->
+<!--//                it('Should add two numbers', function () {-->
+<!--//                    expect(2+2).toEqual(4);-->
+<!--//                });-->
+<!--//            });-->
+        <!--</script>-->
+    </body>
+</html>
